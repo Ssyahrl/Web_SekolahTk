@@ -2,7 +2,6 @@ import { FaHeart, FaBook, FaSmile, FaChild, FaLaptop } from "react-icons/fa";
 import { motion } from "framer-motion";
 import logo from "../../assets/Tkq.png";
 import guru1 from "../../assets/Op.jpg";
-
 import guru3 from "../../assets/Wawa.JPG";
 import { Footer } from "../footer/Footer";
 import guru2 from "../../assets/mm.JPG";
