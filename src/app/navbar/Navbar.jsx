@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Home, Menu, Info, Image, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
+import logo from "../../assets/Tkq.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between px-4 relative">
         {/* Logo */}
         <div className="flex items-center space-x-4 z-50">
-          <img src="/src/assets/Tkq.png" alt="TKQ" className="h-12 w-auto" />
+          <img src={logo} alt="TKQ" className="h-12 w-auto" />
           <span className="text-xl font-bold tracking-wide">TKQ NURUL ANWAR</span>
         </div>
 
